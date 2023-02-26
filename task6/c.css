@@ -1,0 +1,90 @@
+.parent{
+    background-color: rgb(238, 235, 230);
+    margin: 15px ;
+    font-size: 40px;
+    width: 600px;
+    height: 300px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 150px;
+}
+.flex-1{
+    background-color: var(--bg-color);
+    margin: var(--margin);
+}
+.flex-2{
+    background-color:  var(--bg-color);
+    margin: var(--margin);
+}
+.flex-3{
+    background-color:  var(--bg-color);
+    margin:var(--margin);
+}
+.flex-4{
+    background-color:  var(--bg-color);
+    margin: var(--margin);
+}
+.flex-5{
+    background-color:  var(--bg-color);
+    margin: var(--margin);
+}
+.flex-6{
+    background-color:  var(--bg-color);
+    margin: var(--margin);
+}
+:root{
+    --bg-color:red;
+    --margin:25px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+}
+.links li{
+    display: inline;
+    padding: 50px 30px;
+}
+.main-area{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 600px;
+    height: 300px;
+}
+.content{
+    background-color: rgb(239, 239, 232);
+    margin: 3px;
+    width: 500px;
+
+}
+.sidebar{
+    background-color: rgb(239, 239, 232);
+    margin: 3px;
+    width: 500px;
+}
+.footer{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 600px;
+    height: 300px;
+}
+.copyright{ background-color: rgb(239, 239, 232);
+    width: 500px;
+    height: 40px;
+}
+.design{
+    background-color: rgb(239, 239, 232);
+    width: 130px;
+    height: 40px;
+}
